@@ -35,15 +35,19 @@ body {
 .assignment-header {
     position: fixed;
     height: 100px;
+    background-color: rgba(29, 196, 51, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.assignment-header:hover {
-    height: 100px;
-}
-
 
 .assignment1-topic {
     padding: 10px 20px;
+    flex: 1;
+    width: 100%;
 }
 
 p {
@@ -53,7 +57,7 @@ p {
 }
 
 .assignment1-topic p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
